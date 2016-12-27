@@ -7,4 +7,8 @@ rem echo:
 rem echo:>> grabPacktFreeBook.log
 python grabPacktFreeBook.py 
 echo *** Done ! ***
-pauseaaaaaaaaaaaaaaaaaaaaaasaaaaaa
+pauseaaaaaaaaaaaaaaaaaaaaaasaaaaaaas
+sdf
+sdf
+sdf
+sdf
