@@ -1,0 +1,111 @@
+/* 내용 간격 초기화 */
+#bo_v_con p {margin:0}
+section #bo_v_atc p {margin:0}
+
+/* 카테고리 */
+#bo_cate_ul li {padding: 10px 0;}
+#bo_cate_ul li a{border-radius: 5px;padding: 5px 10px;border: 1px solid #ddd; background:#fff;    text-decoration: none;}
+#bo_cate_ul li a:hover{background:#efefef; color:#000;}
+#bo_cate_on {font-weight: bold;}
+
+/*카테고리 라벨*/
+.cate_label {border: 1px solid #ddd;
+    padding: 3px 5px;
+    background: #fff;
+	font-size:11px;
+}
+.cate_label a:hover {color:#999; text-decoration: none;}
+/* 게시판 목록 */
+#bo_list .td_board {vertical-align: middle; width:120px;text-align:center}
+#bo_list .td_chk {vertical-align: middle; width:30px;text-align:center}
+#bo_list .td_date {vertical-align: middle; width:70px;text-align:center}
+#bo_list .td_datetime {vertical-align: middle; width:110px;text-align:center}
+#bo_list .td_group {vertical-align: middle; width:100px;text-align:center}
+#bo_list .td_mb_id {vertical-align: middle; width:100px;text-align:center}
+#bo_list .td_mng {vertical-align: middle; width:80px;text-align:center}
+#bo_list .td_name {vertical-align: middle; width:115px; text-align:center;}
+#bo_list .td_nick {vertical-align: middle; width:100px;text-align:center}
+#bo_list .td_num {vertical-align: middle; width:50px;text-align:center}
+#bo_list .td_numbig {vertical-align: middle; width:60px;text-align:center}
+#bo_list .td_subject { vertical-align: middle;}
+#bo_list .td_subject a {line-height:200%;}
+#bo_list a.thumbnail:hover, a.thumbnail:focus {border:1px solid #333;}
+
+/* 페이징 간격 */
+.panel-footer ul.pagination {margin:0 !important;}
+
+/* 뷰페이지 라벨크기 */
+#bo_v .panel-heading h6{line-height:180%;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;}
+
+/*추천수 숫자 크기 */
+#bo_v_act .badge{    font-size: 10px;}
+
+/* 공지사항 */
+#bo_list .bo_notice {font-weight: bold; background: #FFFFE4;}
+
+/* 게시물 마우스 오버시 배경 */
+#bo_list .panel-body tbody tr:hover {background: #FAFAFA;border-left: 3px solid #000000;} 
+#bo_w .file-del {max-width:200px; overflow:hidden;}
+#bo_w .file-del {    margin-left: -2px;
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;}
+
+/* 댓글등록 버튼 */
+.board_btn {height:100%; padding:0 20px;}
+
+/* 웹진 노이미지 */
+ .photo {line-height: 110px; margin: 0; font-size: 24px;}
+
+ /* 웹진 최소이미지 크기 */
+ .table_photo {min-width:150px;}
+ /* 갤러리 마우스오버시 */
+ #gall_ul .thumbnail {padding:0;  border-radius: 0; max-height:320px;}
+ .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {height:210px;}
+ #gall_ul .thumbnail a{text-decoration: none;     line-height: 180%;}
+ #gall_ul .thumbnail a:hover{color:#999;}
+ #gall_ul .thumbnail .caption{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; margin-bottom: 0;}
+ #gall_ul .thumbnail a.thumbnail {    border: 0; border-bottom: 1px solid #eee;}
+ #gall_ul .thumbnail a.thumbnail:hover {  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);  opacity: 0.6;}
+ #gall_ul .thumbnail:hover {border:1px solid #888; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); opacity:1;}
+ /* 갤러리 이미지 크기 */
+ #gall_ul .gall_href {border-bottom:1px solid #eee; height:210px; line-height:210px;}
+ /* 갤러리 NEW 아이콘 위치 */
+#gall_ul .new { position: absolute; top: 21px; left: 15px;}
+#gall_ul .hit { position: absolute; top: 21px; right: 15px;}
+#gall_ul .line-height {line-height: 40px;}
+
+/* 태그 마우스오버 */
+a.cate_label.tooltip-top:hover  {text-decoration:none; color:#cc0000;}
+
+/*파일 첨부*/
+#bo_w i.fa.fa-reply.fa-fw.fa-rotate-180 {margin-right:5px;}
+a.file-on {width:100%;}
+#bo_w input.form-control.file-input {font-weight:normal;}
+#bo_w input.form-control {font-weight:normal;}
+/*글쓰기 인풋폼 */
+@media (min-width:992px){
+input#wr_name {width:96%;}
+input#wr_password {width:96%;}
+input#wr_email {width:96%;}
+input#wr_homepage {}
+input#wr_link1 {width:96%;}
+/* 사용자가 갯수 확장시 고려 */
+input#wr_link3 {width:96%;}
+input#wr_link5 {width:96%;}
+}
+@media (max-width:991px){
+#bo_w .form-group.input-group.pull-left.col-md-6 {width:100%;}
+}
+
+.link-group {margin-top:5px;}
+
+/* 익스에서 댓글 등록버튼 작아지는현상 수정 */
+#bo_vc_w .board_btn {min-height:80px;}
+
+/* 카테고리 칸 */
+ol#bo_cate_ul {padding:0px 15px;}
+
