@@ -28,4 +28,4 @@ include_once(G5_PATH.'/head.php');
 include_once(G5_PATH.'/tail.php');
 ?>
 
-테스트스 
+테스트스 ㅁㄴㅇㄹㄹㄴㅇㄹㄴㅇㄹㄴㅇㄹ
